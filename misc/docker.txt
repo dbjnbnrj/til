@@ -1,0 +1,22 @@
+Docker Notes
+
+These are some notes to capture what I learnt about Docker the last week.
+
+Why use Docker?
+* Unburdening ourselves from installing and running software w/o worrying about dependencies
+and setup.
+
+What is Docker?
+Platform around creating and running containers
+
+  Ecosystem (Platform)
+  Client      Server
+  Machine     Images
+  Hub         Compose
+
+Docker CLI calls Docker hub and dwnloads image
+
+Image
+(file containing deps + config reqd to run pgm)
+-> Container
+(pgm which has instance of an image; has mem + io)
